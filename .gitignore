@@ -2,3 +2,4 @@
 .vercel/
 node_modules/
 qr-code.svg
+qr-code.png

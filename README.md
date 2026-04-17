@@ -28,3 +28,9 @@ node scripts/generate-qr.mjs "https://your-vercel-url.vercel.app"
 ```
 
 The QR code will be written to `qr-code.svg`.
+
+For a high-contrast PNG that phone cameras scan more reliably from a screen or printout, run:
+
+```sh
+npx --yes qrcode "https://your-vercel-url.vercel.app" --output qr-code.png --type png --width 1200 --margin 4 --darkcolor 000000ff --lightcolor ffffffff
+```
