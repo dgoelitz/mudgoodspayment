@@ -10,7 +10,7 @@ The live payment links are in `index.html`:
 - `https://cash.app/$MudGoods`
 - `https://paypal.me/mudgoods`
 
-If the payment providers change, update the button `href` values in `index.html`.
+To change the payment providers, update the button `href` values in `index.html`.
 
 ## Deploy on Vercel
 
